@@ -28,6 +28,8 @@ Lógica de programação
 - POO
 - estruturas de dados
 
+ACESSO AO SCRATCH MIT - login: henribrur
+
 GIT e GITHUB
 Comandos básicos do git:
 git config --global user.name "Seu nome"
@@ -38,14 +40,37 @@ git add . (adiciona ao repositório local)
 git commit -m "tutorial" (documentar as alterações)
 git push (envia ao repositório GitHub)
 git pull (sincroniza as informações do repositório) no PC
-
-
+---------------------------------------------------------
 Gerar token GitHub
 1) Settings
 2) Developer Settings
 3) Token classic
 4) Gerar o token selecionando tudo, guardar o token
+---------------------------------------------------------
+*BOAS PRÁTICAS NA PROGRAMAÇÃO*
+1) Cabeçalho de documentação 
+/**
+    Nome do projeto
+    Descrição da classe / função
+    @author Bruno Henrique 
+    @version 1.0
+*/    
+---------------------------------------------------------
+NODE - Plataforma que permite a execução do JavaScript fora do navegador (browser)
+https://nodejs.org  (Baixar sempre a versão LTS)
 
+Comandos básicos:
+node -v (versão do node)
 
+Gerenciador de pacote para o node:
+npm está relacionado a pasta do projeto (que você vai trabalhar)
+Os pacotes sãi instalados na raís do projeto e não no sistema operacional 
 
+npm -v (versão do vpm)
+npm ls (listar pacotes instalados)
 
+npm init (iniciar um novo projeto JavaScript)
+    |___ package.json
+
+json (JavaScript Object Notation)
+    
