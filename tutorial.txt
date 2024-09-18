@@ -119,6 +119,12 @@ Existem 3 tipos de variáveis, sendo elas:
 > Number: armazena números inteiros e não inteiros 
 > Boolean: armazena dados true | false
 
+!!!!!!ATENÇÃO!!!!!!
+No JavaScript, uma variável pode ser criada usando let ou var!
+
+Var: é obsoleto e inseguro!
+Let: use sempre!
+
 ---------------------------------------------------------
 Comandos JavaScript (Sintaxe)
 
