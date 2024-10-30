@@ -213,3 +213,14 @@ Uso do laço for
 1) Percorrer uma estrutura de dados (importante)
 2) Simplificar o código
 3) Fazer cálculos levando em conta a variável interna do laço
+
+while (condição) {
+    //condição verdadeira
+}
+
+
+do {
+    //executa o código uma vez independente da condição e depois analisa a condição 
+} while (condição) 
+
+As estruturas while e do-white são estruturas de repetições infinitas, ou seja, enquanto a condição for verdadeira, o código inteiro será repetido infinitamente.
