@@ -9,6 +9,10 @@ let a, b, opcao
 
 do {
 console.clear()
+console.log(" _____     _         _       _             ")
+console.log("|     |___| |___ _ _| |___ _| |___ ___ ___ ")
+console.log("|   --| .'| |  _| | | | .'| . | . |  _| .'|")
+console.log("|_____|__,|_|___|___|_|__,|___|___|_| |__,|")
 console.log("Calculadora")
 
 a = Number(input.question("Digite o primeiro numero: "))
@@ -68,7 +72,7 @@ function porcentagem (a, b) {
  
 } opcao = input.question("Deseja jogar novamente (s/n) ")
 
-}while (opcao === "s") 
+} while (opcao === "s") 
 
 
 
