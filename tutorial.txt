@@ -256,3 +256,12 @@ Polimorfismo
 Encapsulamento
 
 Observações: TODA classe modelo, obrigatoriamente deve iniciar com letra maiúscula
+
+!!!DICA!!!
+
+Classe (biologia)
+
+Lingua Portuguesa:
+Objeto (substantivo)
+Atributo (adjetivo)
+Métodos (verbos)
