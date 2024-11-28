@@ -54,6 +54,7 @@ class Aviao extends Carro { // A classe Aviao herda os atributos e métodos da c
         console.log("   __|__|__|__|__")
         console.log(`Aviao ${this.cor}`) // Exibe a cor do avião.
         console.log(`Ano: ${this.ano}`) // Exibe o ano do avião.
+        console.log(`Envergadura: ${this.envergadura}`) // Exibe a envergadura do avião.
         console.log("-------------------------------------------")
     }
 
@@ -82,7 +83,7 @@ carro1.ligar() // Liga o carro (nota: o carro1 é ligado novamente, o carro2 nã
 carro1.acelerar() // Acelera o carro1 novamente.
 carro1.desligar() // Desliga o carro1 novamente.
 
-const aviao1 = new Aviao("2018", "Branco", 30) // Cria uma instância da classe Aviao com ano "2018", cor "Branco" e envergadura "30".
+const aviao1 = new Aviao("2018", "Branco", 3) // Cria uma instância da classe Aviao com ano "2018", cor "Branco" e envergadura "30".
 aviao1.criarAviao() // Chama o método para criar e exibir as características do avião.
 aviao1.acelerar() // Chama o método para decolar o avião.
 aviao1.aterrissar() // Chama o método para aterrissar o avião.
