@@ -22,13 +22,13 @@ transition transform (efeitos de animação do CSS (rolagem na horizontal e fade
 }
 
 /* saída */
-#slide.slideEsq {
+#slide.slideIn {
     transform: translateX(-100%);
     opacity: 0; /* 0 representa totalmente transparente */
 }
 
 /* entrada */
-#slide.slideDir {
+#slide.slideOut {
     transform: translateX(0);
     opacity: 1; /* sólido */
 }
