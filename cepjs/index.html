@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do cliente</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container ">
+
+        <h1 class="text-danger">Cadastro do cliente</h1>
+
+        <div class="form-container">
+
+    <form action="mailto:gabriel@emailcom" method="post" id="contato">
+        <fieldset class="usuario"> <!-- Conjunto de campos -->
+            <legend>Identificação do usuário</legend>
+            
+            <p>
+                <label for="cnome">Nome:</label>
+                <input type="text" name="nome" id="cnome" size="30" maxlength="50" placeholder="Nome completo" required autofocus>
+            </p>
+
+            <p>
+                <label for="ccpf">CPF:</label>
+                    <input type="text" name="cpf" id="ccpf" size="30" maxlength="14" placeholder="XXX.XXX.XXX-XX" required oninput="validarCPF(this)" >
+
+            </p>
+    
+            <p>
+                <label for="cemail">E-mail:</label>
+                <input type="email" name="email" id="cemail" size="30" maxlength="50" placeholder="Digite seu e-mail" required>
+            </p>
+    
+            <p>
+                <label for="cfone">Telefone:</label>
+                <input type="tel" name="fone" id="cfone" size="30" maxlength="50" placeholder="Digite seu telefone" required>
+            </p>
+    
+        </fieldset>
+    
+
+            <fieldset class="endereco">
+                <h2 class="text-danger"> Endereço </h2>
+    
+         <p>       
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" maxlength="9" onblur="buscarEndereco()" required>
+        </p>
+        <p>
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" id="logradouro">
+        </p>
+        <p>
+        <label for="cnum">Número: </label>
+        <input type="number" name="num" id="cnum"
+        min="0" max="99999" required>
+        </p>
+        <p>
+        <label for="cnum">Complemento: </label>
+        <input type="text" name="text" id="ccomp"
+        min="0" max="99999">
+        </p>
+        <p>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro">
+        </p>
+        <p>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade">
+        </p>
+            <label for="uf">UF:</label>
+            <select id="uf">
+                <option value="Selecione">Selecione</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select>
+            
+    
+            </fieldset>
+            <br>
+            <!--Submit ativa no html as validações-->
+            <button type="submit" name="enviar" class=" btn btn-danger">Enviar</button>
+            
+                
+
+        </form>
+
+        <div class="col-md-6 py-4">
+            <img src="img/pranche.png" alt="Prancheta"  >
+
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
